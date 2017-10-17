@@ -47,7 +47,7 @@ def c3(*args):
             hd_d = drugs[i]
         if d['s'] == 'be':
             be = d
-            be_d = d 
+            be_d = drugs[i]
     return hd and be and ((hd_d == 'dam' and be['m'] == 3) ^ (hd['m'] == 3 and be_d == 'dam'))
 
 def c4(fav, *args):
